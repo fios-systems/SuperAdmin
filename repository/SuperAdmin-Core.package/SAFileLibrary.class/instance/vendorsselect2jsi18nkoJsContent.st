@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18nkoJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/ko",[],function(){return{errorLoading:function(){return"ê²°ê³¼ë¥¼ ë¶ë¬ì¬ ì ììµëë¤."},inputTooLong:function(e){var t=e.input.length-e.maximum,n="ëë¬´ ê¹ëë¤. "+t+" ê¸ì ì§ìì£¼ì¸ì.";return n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="ëë¬´ ì§§ìµëë¤. "+t+" ê¸ì ë ìë ¥í´ì£¼ì¸ì.";return n},loadingMore:function(){return"ë¶ë¬ì¤ë ì¤â¦"},maximumSelected:function(e){var t="ìµë "+e.maximum+"ê°ê¹ì§ë§ ì í ê°ë¥í©ëë¤.";return t},noResults:function(){return"ê²°ê³¼ê° ììµëë¤."},searching:function(){return"ê²ì ì¤â¦"}}}),{define:e.define,require:e.require}})();'

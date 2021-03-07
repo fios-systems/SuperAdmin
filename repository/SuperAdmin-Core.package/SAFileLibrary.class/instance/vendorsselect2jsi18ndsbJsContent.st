@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18ndsbJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/dsb",[],function(){var e=["znamuÅ¡ko","znamuÅ¡ce","znamuÅ¡ka","znamuÅ¡kow"],t=["zapisk","zapiska","zapiski","zapiskow"],n=function(t,n){if(t===1)return n[0];if(t===2)return n[1];if(t>2&&t<=4)return n[2];if(t>=5)return n[3]};return{errorLoading:function(){return"WuslÄdki njejsu se dali zacytaÅ."},inputTooLong:function(t){var r=t.input.length-t.maximum;return"PÅ¡osym laÅ¡uj "+r+" "+n(r,e)},inputTooShort:function(t){var r=t.minimum-t.input.length;return"PÅ¡osym zapÃ³daj nanejmjenjej "+r+" "+n(r,e)},loadingMore:function(){return"DalÅ¡ne wuslÄdki se zacytajuâ¦"},maximumSelected:function(e){return"MÃ³Å¾oÅ¡ jano "+e.maximum+" "+n(e.maximum,t)+"wubraÅ."},noResults:function(){return"Å½edne wuslÄdki namakane"},searching:function(){return"Pyta seâ¦"}}}),{define:e.define,require:e.require}})();'

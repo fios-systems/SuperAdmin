@@ -1,0 +1,16 @@
+uploaded
+vendorsbootstrapscssutilitiesvisibilityScssContent
+	^ '// stylelint-disable declaration-no-important
+
+//
+// Visibility utilities
+//
+
+.visible {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+'

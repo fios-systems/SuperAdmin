@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAFileMetadataLibrary",
 	"category" : "SuperAdmin-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "SAFileLibrary",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAFileMetadataLibrary",
+	"type" : "normal" }

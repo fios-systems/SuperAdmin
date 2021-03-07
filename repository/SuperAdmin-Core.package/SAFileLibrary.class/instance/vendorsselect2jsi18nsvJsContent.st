@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18nsvJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/sv",[],function(){return{errorLoading:function(){return"Resultat kunde inte laddas."},inputTooLong:function(e){var t=e.input.length-e.maximum,n="VÃ¤nligen sudda ut "+t+" tecken";return n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="VÃ¤nligen skriv in "+t+" eller fler tecken";return n},loadingMore:function(){return"Laddar fler resultatâ¦"},maximumSelected:function(e){var t="Du kan max vÃ¤lja "+e.maximum+" element";return t},noResults:function(){return"Inga trÃ¤ffar"},searching:function(){return"SÃ¶kerâ¦"}}}),{define:e.define,require:e.require}})();'

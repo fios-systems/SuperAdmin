@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18nroJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/ro",[],function(){return{errorLoading:function(){return"Rezultatele nu au putut fi incÄrcate."},inputTooLong:function(e){var t=e.input.length-e.maximum,n="VÄ rugÄm sÄ ÈtergeÈi"+t+" caracter";return t!==1&&(n+="e"),n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="VÄ rugÄm sÄ introduceÈi "+t+" sau mai multe caractere";return n},loadingMore:function(){return"Se Ã®ncarcÄ mai multe rezultateâ¦"},maximumSelected:function(e){var t="AveÈi voie sÄ selectaÈi cel mult "+e.maximum;return t+=" element",e.maximum!==1&&(t+="e"),t},noResults:function(){return"Nu au fost gÄsite rezultate"},searching:function(){return"CÄutareâ¦"}}}),{define:e.define,require:e.require}})();'

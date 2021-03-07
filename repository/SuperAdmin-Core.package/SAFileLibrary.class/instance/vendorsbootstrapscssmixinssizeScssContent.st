@@ -1,0 +1,10 @@
+uploaded
+vendorsbootstrapscssmixinssizeScssContent
+	^ '// Sizing shortcuts
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+  @include deprecate("`size()`", "v4.3.0", "v5");
+}
+'

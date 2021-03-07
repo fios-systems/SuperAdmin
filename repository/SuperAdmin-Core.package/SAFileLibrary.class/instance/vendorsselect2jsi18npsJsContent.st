@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18npsJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/ps",[],function(){return{errorLoading:function(){return"Ù¾Ø§ÙÙÙ ÙÙ Ø³Ù ØªØ±ÙØ§Ø³Ù Ú©ÛØ¯Ø§Û"},inputTooLong:function(e){var t=e.input.length-e.maximum,n="Ø¯ ÙÙØ±Ø¨Ø§ÙÛ ÙÙØ®Ù "+t+" ØªÙØ±Û ÚÙÚ« Ú©ÚØ¦";return t!=1&&(n=n.replace("ØªÙØ±Û","ØªÙØ±Ù")),n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="ÙÚ ØªØ± ÙÚÙ "+t+" ÙØ§ ÚÛØ± ØªÙØ±Ù ÙÙÙÚ©Ø¦";return n},loadingMore:function(){return"ÙÙØ±Ù Ù¾Ø§ÙÙÙ ØªØ±ÙØ§Ø³Ù Ú©ÙÚÙ..."},maximumSelected:function(e){var t="ØªØ§Ø³Ù ÙÙØ§Ø²Ù "+e.maximum+" ÙÙÙ Ù¾Ù ÙÚÙ Ú©ÙÙØ§Û Ø³Û";return e.maximum!=1&&(t=t.replace("ÙÙÙ","ÙÙÙÙÙÙ")),t},noResults:function(){return"Ù¾Ø§ÙÙÙ Ù ÙÙ ÙÙÙØ¯Ù Ø³ÙÛ"},searching:function(){return"ÙÙ¼ÙÙ Ú©ÙÚÙ..."}}}),{define:e.define,require:e.require}})();'

@@ -1,0 +1,11 @@
+uploaded
+vendorsbootstrapscssmediaScssContent
+	^ '.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
+}
+'

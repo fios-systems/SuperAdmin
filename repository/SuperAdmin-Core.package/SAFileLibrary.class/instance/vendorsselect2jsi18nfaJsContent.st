@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18nfaJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/fa",[],function(){return{errorLoading:function(){return"Ø§ÙÚ©Ø§Ù Ø¨Ø§Ø±Ú¯Ø°Ø§Ø±Û ÙØªØ§ÛØ¬ ÙØ¬ÙØ¯ ÙØ¯Ø§Ø±Ø¯."},inputTooLong:function(e){var t=e.input.length-e.maximum,n="ÙØ·ÙØ§Ù "+t+" Ú©Ø§Ø±Ø§Ú©ØªØ± Ø±Ø§ Ø­Ø°Ù ÙÙØ§ÛÛØ¯";return n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="ÙØ·ÙØ§Ù ØªØ¹Ø¯Ø§Ø¯ "+t+" Ú©Ø§Ø±Ø§Ú©ØªØ± ÛØ§ Ø¨ÛØ´ØªØ± ÙØ§Ø±Ø¯ ÙÙØ§ÛÛØ¯";return n},loadingMore:function(){return"Ø¯Ø± Ø­Ø§Ù Ø¨Ø§Ø±Ú¯Ø°Ø§Ø±Û ÙØªØ§ÛØ¬ Ø¨ÛØ´ØªØ±..."},maximumSelected:function(e){var t="Ø´ÙØ§ ØªÙÙØ§ ÙÛâØªÙØ§ÙÛØ¯ "+e.maximum+" Ø¢ÛØªÙ Ø±Ø§ Ø§ÙØªØ®Ø§Ø¨ ÙÙØ§ÛÛØ¯";return t},noResults:function(){return"ÙÛÚ ÙØªÛØ¬ÙâØ§Û ÛØ§ÙØª ÙØ´Ø¯"},searching:function(){return"Ø¯Ø± Ø­Ø§Ù Ø¬Ø³ØªØ¬Ù..."}}}),{define:e.define,require:e.require}})();'

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "WAComponent",
 	"category" : "SuperAdmin-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "SARootComponent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

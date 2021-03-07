@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18nhyJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/hy",[],function(){return{errorLoading:function(){return"Ô±ÖÕ¤ÕµÕ¸ÖÕ¶ÖÕ¶Õ¥ÖÕ¨ Õ°Õ¶Õ¡ÖÕ¡Õ¾Õ¸Ö Õ¹Õ§ Õ¢Õ¥Õ¼Õ¶Õ¥Õ¬Ö"},inputTooLong:function(e){var t=e.input.length-e.maximum,n="Ô½Õ¶Õ¤ÖÕ¸ÖÕ´ Õ¥Õ¶Ö Õ°Õ¥Õ¼Õ¡ÖÕ¶Õ¥Õ¬ "+t+" Õ¶Õ·Õ¡Õ¶";return n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="Ô½Õ¶Õ¤ÖÕ¸ÖÕ´ Õ¥Õ¶Ö Õ´Õ¸ÖÕ¿ÖÕ¡Õ£ÖÕ¥Õ¬ "+t+" Õ¯Õ¡Õ´ Õ¡Õ¾Õ¥Õ¬ Õ¶Õ·Õ¡Õ¶Õ¶Õ¥Ö";return n},loadingMore:function(){return"Ô²Õ¥Õ¼Õ¶Õ¾Õ¸ÖÕ´ Õ¥Õ¶ Õ¶Õ¸Ö Õ¡ÖÕ¤ÕµÕ¸ÖÕ¶ÖÕ¶Õ¥Öâ¤â¤â¤"},maximumSelected:function(e){var t="Ô´Õ¸ÖÖ Õ¯Õ¡ÖÕ¸Õ² Õ¥Ö Õ¨Õ¶Õ¿ÖÕ¥Õ¬ Õ¡Õ¼Õ¡Õ¾Õ¥Õ¬Õ¡Õ£Õ¸ÖÕµÕ¶Õ¨ "+e.maximum+" Õ¯Õ¥Õ¿";return t},noResults:function(){return"Ô±ÖÕ¤ÕµÕ¸ÖÕ¶ÖÕ¶Õ¥Ö Õ¹Õ¥Õ¶ Õ£Õ¿Õ¶Õ¾Õ¥Õ¬"},searching:function(){return"ÕÖÕ¸Õ¶Õ¸ÖÕ´â¤â¤â¤"}}}),{define:e.define,require:e.require}})();'

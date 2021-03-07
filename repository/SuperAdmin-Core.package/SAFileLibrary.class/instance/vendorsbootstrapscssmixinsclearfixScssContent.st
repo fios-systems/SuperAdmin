@@ -1,0 +1,10 @@
+uploaded
+vendorsbootstrapscssmixinsclearfixScssContent
+	^ '@mixin clearfix() {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+'

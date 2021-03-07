@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18nsrCyrlJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/sr-Cyrl",[],function(){function e(e,t,n,r){return e%10==1&&e%100!=11?t:e%10>=2&&e%10<=4&&(e%100<12||e%100>14)?n:r}return{errorLoading:function(){return"ÐÑÐµÑÐ·Ð¸Ð¼Ð°ÑÐµ Ð½Ð¸ÑÐµ ÑÑÐ¿ÐµÐ»Ð¾."},inputTooLong:function(t){var n=t.input.length-t.maximum,r="ÐÐ±ÑÐ¸ÑÐ¸ÑÐµ "+n+" ÑÐ¸Ð¼Ð±Ð¾Ð»";return r+=e(n,"","Ð°","Ð°"),r},inputTooShort:function(t){var n=t.minimum-t.input.length,r="Ð£ÐºÑÑÐ°ÑÑÐµ Ð±Ð°Ñ ÑÐ¾Ñ "+n+" ÑÐ¸Ð¼Ð±Ð¾Ð»";return r+=e(n,"","Ð°","Ð°"),r},loadingMore:function(){return"ÐÑÐµÑÐ·Ð¸Ð¼Ð°ÑÐµ ÑÐ¾Ñ ÑÐµÐ·ÑÐ»ÑÐ°ÑÐ°â¦"},maximumSelected:function(t){var n="ÐÐ¾Ð¶ÐµÑÐµ Ð¸Ð·Ð°Ð±ÑÐ°ÑÐ¸ ÑÐ°Ð¼Ð¾ "+t.maximum+" ÑÑÐ°Ð²Ðº";return n+=e(t.maximum,"Ñ","Ðµ","Ð¸"),n},noResults:function(){return"ÐÐ¸ÑÑÐ° Ð½Ð¸ÑÐµ Ð¿ÑÐ¾Ð½Ð°ÑÐµÐ½Ð¾"},searching:function(){return"ÐÑÐµÑÑÐ°Ð³Ð°â¦"}}}),{define:e.define,require:e.require}})();'

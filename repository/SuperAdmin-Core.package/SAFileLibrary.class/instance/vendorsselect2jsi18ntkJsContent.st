@@ -1,0 +1,5 @@
+uploaded
+vendorsselect2jsi18ntkJsContent
+	^ '/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/tk",[],function(){return{errorLoading:function(){return"Netije Ã½Ã¼klenmedi."},inputTooLong:function(e){var t=e.input.length-e.maximum,n=t+" harp bozuÅ.";return n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="Ãene-de iÅ az "+t+" harp Ã½azyÅ.";return n},loadingMore:function(){return"KÃ¶prÃ¤k netije gÃ¶rkezilÃ½Ã¤râ¦"},maximumSelected:function(e){var t="DiÅe "+e.maximum+" sanysyny saÃ½laÅ.";return t},noResults:function(){return"Netije tapylmady."},searching:function(){return"GÃ¶zlenÃ½Ã¤râ¦"}}}),{define:e.define,require:e.require}})();'

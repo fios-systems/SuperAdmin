@@ -1,0 +1,10 @@
+uploaded
+vendorsbootstrapscssmixinslistsScssContent
+	^ '// Lists
+
+// Unstyled keeps list items block level, just removes default browser padding and list-style
+@mixin list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+'
