@@ -1,5 +1,30 @@
 {
 	"class" : {
-		 },
+		"canBeRoot" : "jupiter 03/07/2021 16:32" },
 	"instance" : {
-		"renderContentOn:" : " 03/07/2021 16:13:59" } }
+		"initialize" : "jupiter 03/08/2021 09:07",
+		"notifications" : "jupiter 03/08/2021 09:21",
+		"notifications:" : "jupiter 03/08/2021 09:21",
+		"renderClockOn:" : "jupiter 03/07/2021 19:15",
+		"renderContentOn:" : "jupiter 03/08/2021 19:17",
+		"renderHeaderLogoOn:" : "jupiter 03/07/2021 17:55",
+		"renderHeaderNavigationTriggerOn:" : "jupiter 03/07/2021 17:45",
+		"renderHeaderOn:" : "jupiter 03/07/2021 18:18",
+		"renderJavascriptResourcesOn:" : "jupiter 03/07/2021 21:18",
+		"renderNotificationsOn:" : "jupiter 03/08/2021 09:04",
+		"renderNotificationsTopNavOn:" : "jupiter 03/08/2021 18:54",
+		"renderPageLoaderOn:" : "jupiter 03/07/2021 17:35",
+		"renderPageLoaderSpinnerOn:" : "jupiter 03/07/2021 17:35",
+		"renderSearchEnableTopNavOn:" : "jupiter 03/07/2021 18:24",
+		"renderSearchOn:" : "jupiter 03/07/2021 19:01",
+		"renderSidebarOn:" : "jupiter 03/08/2021 19:55",
+		"renderSidebarUserOn:" : "jupiter 03/08/2021 20:16",
+		"renderThemeSelectorOn:" : "jupiter 03/08/2021 08:30",
+		"renderThemeSelectorTopNavOn:" : "jupiter 03/08/2021 08:29",
+		"renderThemesOn:" : "jupiter 03/08/2021 09:59",
+		"renderTopNavOn:" : "jupiter 03/08/2021 08:29",
+		"themeIndex" : "jupiter 03/07/2021 16:41",
+		"themeIndex:" : "jupiter 03/07/2021 16:41",
+		"title" : "jupiter 03/07/2021 16:51",
+		"title:" : "jupiter 03/07/2021 16:51",
+		"updateRoot:" : "jupiter 03/08/2021 09:34" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"user" ],
+	"name" : "SASession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

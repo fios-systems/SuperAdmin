@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"themeIndex",
+		"title",
+		"notifications" ],
 	"name" : "SARootComponent",
 	"pools" : [
 		 ],

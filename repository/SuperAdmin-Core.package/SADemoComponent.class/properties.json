@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SADemoComponent",
+	"pools" : [
+		 ],
+	"super" : "SARootComponent",
+	"type" : "normal" }

@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfSuperAdmin!
+SystemOrganization addCategory: #'BaselineOfSuperAdmin'!
