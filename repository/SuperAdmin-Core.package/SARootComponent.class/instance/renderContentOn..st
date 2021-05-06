@@ -1,10 +1,16 @@
 rendering
 renderContentOn: canvas
-  canvas main
-    class: 'main';
-    with: [ 
-          self renderPageLoaderOn: canvas.
-          self renderHeaderOn: canvas.
-          self renderThemeSelectorOn: canvas.
-          self renderSidebarOn: canvas ].
-  self renderJavascriptResourcesOn: canvas
+  showLoadingScreen
+    ifTrue: [ 
+      self renderPageLoaderOn: canvas.
+      showLoadingScreen := false ].
+  self session isLoggedIn
+    ifFalse: [ 
+      self session isLocked
+        ifTrue: [ canvas render: self lockComponent ]
+        ifFalse: [ canvas render: self loginComponent ] ]
+    ifTrue: [ self renderMainOn: canvas ].
+  self
+    renderSupportForAjaxErrorHandlerOn: canvas;
+    renderUserLockTimerScriptOn: canvas;
+    renderJavascriptResourcesOn: canvas

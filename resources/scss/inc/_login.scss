@@ -11,7 +11,7 @@
   width: 100%;
   display: none;
   text-align: center;
-  @include animate(fadeInUp, 300ms);
+  @include animate(fadeIn, 300ms);
   @include card();
 
   @include media-breakpoint-up(sm) {

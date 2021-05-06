@@ -1,0 +1,3 @@
+errors
+clearErrors
+  errors := nil

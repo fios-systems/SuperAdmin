@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"announcer",
-		"user" ],
+		"user",
+		"lockUser",
+		"superUser",
+		"lastAccessTime" ],
 	"name" : "SASession",
 	"pools" : [
 		 ],

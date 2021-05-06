@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"showLoadingScreen",
 		"themeIndex",
 		"title",
 		"notifications" ],
 	"name" : "SARootComponent",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "SAAbstractComponent",
 	"type" : "normal" }

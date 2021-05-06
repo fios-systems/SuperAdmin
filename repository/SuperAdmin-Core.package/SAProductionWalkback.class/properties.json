@@ -1,0 +1,15 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/28/2021 07:52",
+	"instvars" : [
+		"continuationOop",
+		"shouldRenderButtons" ],
+	"name" : "SAProductionWalkback",
+	"pools" : [
+		 ],
+	"super" : "WARemoteDebuggingWalkback",
+	"type" : "normal" }

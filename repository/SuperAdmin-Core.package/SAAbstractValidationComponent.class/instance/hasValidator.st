@@ -1,0 +1,3 @@
+testing
+hasValidator
+  ^ validator notNil

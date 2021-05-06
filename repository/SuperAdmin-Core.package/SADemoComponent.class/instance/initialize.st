@@ -1,4 +1,5 @@
 initialisation
 initialize
   super initialize.
-  self initializeNotifications
+  self initializeNotifications.
+  themeIndex := 7

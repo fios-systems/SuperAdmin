@@ -6,7 +6,9 @@ baseline: spec
     do: [ 
       spec
         package: 'SuperAdmin-Announcements';
+        package: 'SuperAdmin-Model';
         package: 'SuperAdmin-Core'
-          with: [ spec requires: 'SuperAdmin-Announcements' ];
+          with: [ spec requires: #('SuperAdmin-Announcements' 'SuperAdmin-Model') ];
         package: 'SuperAdmin-Widgets'
-          with: [ spec requires: 'SuperAdmin-Core' ] ]
+          with: [ spec requires: #('SuperAdmin-Core') ];
+        package: 'SuperAdmin-Announcements' ]

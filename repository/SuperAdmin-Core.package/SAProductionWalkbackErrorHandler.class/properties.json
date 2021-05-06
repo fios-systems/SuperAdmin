@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 04/28/2021 07:53",
+	"instvars" : [
+		 ],
+	"name" : "SAProductionWalkbackErrorHandler",
+	"pools" : [
+		 ],
+	"super" : "WARemoteDebuggingWalkbackErrorHandler",
+	"type" : "normal" }

@@ -10663,6 +10663,10 @@ textarea {
   font-weight: normal;
   margin: 0;
 }
+.logo > a > img {
+  max-width: 200px;
+  max-height: 50px;
+}
 
 .top-nav {
   list-style: none;
@@ -10774,7 +10778,7 @@ textarea {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.15);
     z-index: 101;
     display: flex;
     align-items: center;
@@ -12209,8 +12213,8 @@ textarea {
   width: 100%;
   display: none;
   text-align: center;
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
   -webkit-animation-duration: 300ms;
   animation-duration: 300ms;
   -webkit-animation-fill-mode: both;

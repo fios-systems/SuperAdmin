@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SALock",
+	"pools" : [
+		 ],
+	"super" : "SAUserAnnouncement",
+	"type" : "normal" }

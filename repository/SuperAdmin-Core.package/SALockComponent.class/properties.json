@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"imageUrl",
-		"iconName",
-		"heading",
-		"text" ],
-	"name" : "SANotification",
+		 ],
+	"name" : "SALockComponent",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SAAbstractValidationComponent",
 	"type" : "normal" }

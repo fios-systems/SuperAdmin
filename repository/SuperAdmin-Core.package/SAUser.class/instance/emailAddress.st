@@ -1,3 +1,3 @@
 Accessing
 emailAddress
-  ^ 'juipiter@mynation.earth'
+  ^ 'jupiter@email.address.com'

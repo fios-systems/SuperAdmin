@@ -19,7 +19,7 @@ renderSidebarUserOn: canvas
                         class: 'user__email';
                         with: [ canvas text: 'jupiter@mynation.earth' ] ].
                   canvas div
-                    class: 'dropdown-menu dropdown-menu';
+                    class: 'dropdown-menu';
                     with: [ 
                           canvas anchor
                             class: 'dropdown-item';
@@ -27,6 +27,8 @@ renderSidebarUserOn: canvas
                           canvas anchor
                             class: 'dropdown-item';
                             with: [ canvas text: 'Settings' ].
+                          canvas horizontalRule class: 'dropdown-divider'.
                           canvas anchor
                             class: 'dropdown-item';
+                            callback: [ self session announce: (SALogout user: self session user) ];
                             with: [ canvas text: 'Logout' ] ] ] ]

@@ -1,0 +1,18 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action",
+		"displayName",
+		"userName",
+		"password",
+		"passwordConfirm" ],
+	"name" : "SALoginComponent",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractValidationComponent",
+	"type" : "normal" }

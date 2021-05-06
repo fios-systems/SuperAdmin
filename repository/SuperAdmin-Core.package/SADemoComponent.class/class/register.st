@@ -2,4 +2,4 @@ utilities
 register
   "SADemoComponent register"
 
-  WAAdmin register: self asApplicationAt: 'sa'
+  self configureApplication: (WAAdmin register: self asApplicationAt: 'sa')

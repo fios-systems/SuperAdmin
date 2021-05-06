@@ -1,0 +1,17 @@
+{
+	"category" : "SuperAdmin-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"imageUrl",
+		"iconName",
+		"heading",
+		"text" ],
+	"name" : "SANotification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

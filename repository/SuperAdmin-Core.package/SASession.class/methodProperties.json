@@ -2,7 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
+		"announce:" : "jupiter 05/04/2021 10:47",
 		"announcer" : "jupiter 03/08/2021 22:07",
-		"initialize" : "jupiter 03/08/2021 22:08",
-		"user" : "jupiter 03/08/2021 22:07",
-		"user:" : "jupiter 03/08/2021 22:07" } }
+		"handleFiltered:" : "jupiter 05/06/2021 13:51",
+		"initalizeSessionAnnouncements" : "jupiter 05/04/2021 11:49",
+		"initialize" : "jupiter 05/04/2021 10:52",
+		"isLocked" : "jupiter 05/06/2021 14:37",
+		"isLoggedIn" : "jupiter 04/28/2021 07:39",
+		"lastAccessTime" : "jupiter 05/06/2021 10:55",
+		"lockUser" : "jupiter 04/28/2021 08:05",
+		"lockUser:" : "jupiter 05/04/2021 11:45",
+		"loginUser:" : "jupiter 05/04/2021 11:44",
+		"logoutUser:" : "jupiter 05/04/2021 11:44",
+		"subscribe:do:for:" : "jupiter 05/04/2021 10:47",
+		"superUser" : "jupiter 05/04/2021 12:18",
+		"unlockUser:" : "jupiter 05/04/2021 11:45",
+		"user" : "jupiter 03/08/2021 22:07" } }

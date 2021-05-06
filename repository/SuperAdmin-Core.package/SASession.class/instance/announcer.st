@@ -1,3 +1,3 @@
-Accessing
+announcements
 announcer
 	^announcer

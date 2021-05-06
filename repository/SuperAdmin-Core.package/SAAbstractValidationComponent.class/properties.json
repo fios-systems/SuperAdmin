@@ -1,0 +1,15 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errors",
+		"validator" ],
+	"name" : "SAAbstractValidationComponent",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractComponent",
+	"type" : "normal" }
