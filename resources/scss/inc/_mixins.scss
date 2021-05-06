@@ -49,3 +49,11 @@
   &::-moz-placeholder { @content }
   &:-ms-input-placeholder { @content }
 }
+
+// Sizing shortcuts depricated in bootstrap 5
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+  //@include deprecate("`size()`", "v4.3.0", "v5");
+}

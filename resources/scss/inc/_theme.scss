@@ -41,7 +41,7 @@ $theme-bgs: (
   width: $sidebar-width;
   background-color: $bg-highlighted-darkest;
   z-index: $sidebar-z-index;
-  transform: translate3d(($sidebar-width + 10px), 0, 0);
+  transform: translate3d(($sidebar-width + 0.625rem), 0, 0);
   transition: box-shadow 300ms, transform 300ms, opacity 300ms;
 
   &.toggled {
