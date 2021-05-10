@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 05/11/2021 06:13",
+	"instvars" : [
+		 ],
+	"name" : "SAFormRenderer",
+	"pools" : [
+		 ],
+	"super" : "TBSMagritteFormRenderer",
+	"type" : "normal" }

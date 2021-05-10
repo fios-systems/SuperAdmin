@@ -1,8 +1,0 @@
-uploaded
-vendorsbootstrapscssutilitiesoverflowScssContent
-	^ '// stylelint-disable declaration-no-important
-
-@each $value in $overflows {
-  .overflow-#{$value} { overflow: $value !important; }
-}
-'

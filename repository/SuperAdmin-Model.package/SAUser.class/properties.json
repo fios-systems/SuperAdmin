@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SAUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

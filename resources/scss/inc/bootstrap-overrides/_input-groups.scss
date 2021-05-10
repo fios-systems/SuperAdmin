@@ -1,21 +1,36 @@
-.input-group-prepend {
-  margin-right: 0;
-
-  .input-group-text {
-    border-right-width: 0;
+.input-group {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: $border-radius;
+  
+  &:focus-within {
+    box-shadow: $input-focus-box-shadow;
   }
-}
-
-.input-group-append {
-  margin-left: 0;
-
+  
   .input-group-text {
-    border-left-width: 0;
+    border: 0;
+    
+    & + .form-floating {
+    	flex: 1 1 auto;
+    	
+    	input {
+			border: 0;
+			border-radius: $border-radius;
+			
+			&:focus {
+			  box-shadow: none;
+			}
+		}
+		
+		label {
+			width: 100%;
+			text-align: left;
+		}
+	  }
   }
 }
 
 .input-group-text {
   [class*="zwicon-"] {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }

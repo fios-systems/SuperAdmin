@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SAAbstractWidget",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

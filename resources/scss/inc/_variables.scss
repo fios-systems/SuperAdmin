@@ -1,3 +1,11 @@
+// Conversions
+$font-size-base: 16;
+
+@function toRem($value) {
+    $remValue: ($value / $font-size-base) + rem;	
+    @return $remValue;
+}
+
 // Options
 $enable-transitions: true;
 $enable-shadows: false;
@@ -72,7 +80,7 @@ $btn-theme-dark-active-bg: rgba($black, 0.75);
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-family-icon: 'zwicon';
-$font-size-root: 13px;
+$font-size-root: toRem(13);
 $text-muted: rgba($white, 0.5);
 $headings-color: $white;
 $font-weight-bold: 600;
@@ -134,7 +142,7 @@ $content-title-heading-color: $white;
 
 
 // Header
-$header-height: 72px;
+$header-height: toRem(72);
 $header-shadow: 0 0 13px rgba($black, 0.22);
 $header-z-index: 100;
 $header-bg: rgba($black, 0.3);
@@ -163,9 +171,9 @@ $caret-spacing: 0.5rem;
 
 
 // Border Radius
-$border-radius: 2px;
-$border-radius-lg: 2px;
-$border-radius-sm: 2px;
+$border-radius: 0.5rem;
+$border-radius-lg: 0.5rem;
+$border-radius-sm: 0.5rem;
 
 
 // List Group
@@ -198,7 +206,7 @@ $card-columns-margin: 2.3rem;
 // Sidebars
 $sidebar-bg: rgba($black, 0.125);
 $sidebar-hidden-bg: $bg-highlighted-darkest;
-$sidebar-width: 250px;
+$sidebar-width: toRem(250);
 $sidebar-z-index: $header-z-index + 1;
 $navigation-link-color: rgba($white, 0.7);
 $navigation-link-active-color: $white;
@@ -359,3 +367,4 @@ $toast-header-color: $black;
 $toast-padding-y: 0.5rem;
 $toast-border-width: 0;
 $toast-border-radius: $border-radius;
+

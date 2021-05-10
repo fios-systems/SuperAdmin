@@ -1,12 +1,12 @@
 $(document).ready(function () {
     // Popovers
-    if($('[data-toggle="popover"]')[0]) {
-        $('[data-toggle="popover"]').popover();
+    if($('[data-bs-toggle="popover"]')[0]) {
+        $('[data-bs-toggle="popover"]').popover();
     }
 
     // Tooltips
-    if($('[data-toggle="tooltip"]')[0]) {
-        $('[data-toggle="tooltip"]').tooltip();
+    if($('[data-bs-toggle="tooltip"]')[0]) {
+        $('[data-bs-toggle="tooltip"]').tooltip();
     }
 
     // File browser
