@@ -9,8 +9,7 @@
 		"action",
 		"displayName",
 		"userName",
-		"password",
-		"passwordConfirm" ],
+		"password" ],
 	"name" : "SALoginComponent",
 	"pools" : [
 		 ],

@@ -18,17 +18,13 @@ renderLoginActionsOn: canvas
                     with: [ 
                           canvas anchor
                             class: 'dropdown-item';
-                            attributeAt: 'data-sa-action' put: 'login-switch';
-                            attributeAt: 'data-sa-target' put: '#l-login';
+                            callback: [ action := 'login' ];
                             with: 'Sign in'.
                           canvas anchor
                             class: 'dropdown-item';
-                            attributeAt: 'data-sa-action' put: 'login-switch';
-                            attributeAt: 'data-sa-target' put: '#l-register';
+                            callback: [ action := 'register' ];
                             with: 'Create an account'.
                           canvas anchor
                             class: 'dropdown-item';
-                            attributeAt: 'data-sa-action' put: 'login-switch';
-                            attributeAt: 'data-sa-target'
-                              put: '#l-forget-password';
+                            callback: [ action := 'forgotPassword' ];
                             with: 'Forgot Password' ] ] ]

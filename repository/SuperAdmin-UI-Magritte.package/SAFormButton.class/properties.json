@@ -1,0 +1,19 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"selector",
+		"icon",
+		"accessKey",
+		"cssClasses",
+		"comment" ],
+	"name" : "SAFormButton",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

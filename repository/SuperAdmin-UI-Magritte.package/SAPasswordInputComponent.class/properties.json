@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 05/11/2021 14:31",
+	"instvars" : [
+		 ],
+	"name" : "SAPasswordInputComponent",
+	"pools" : [
+		 ],
+	"super" : "MATextPasswordComponent",
+	"type" : "normal" }

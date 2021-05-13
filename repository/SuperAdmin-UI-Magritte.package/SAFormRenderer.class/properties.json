@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jupiter 05/11/2021 06:13",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"formInline",
+		"formHorizontal" ],
 	"name" : "SAFormRenderer",
 	"pools" : [
 		 ],
-	"super" : "TBSMagritteFormRenderer",
+	"super" : "MAComponentRenderer",
 	"type" : "normal" }

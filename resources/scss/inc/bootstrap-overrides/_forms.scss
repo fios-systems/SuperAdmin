@@ -24,3 +24,20 @@ select.form-control {
   border-radius: 0;
   padding: 0.25rem 0.5rem 0.35rem;
 }
+
+.magritte-group {
+	text-align: left;
+
+	.heading {
+		font-family: le-havre-rounded, sans-serif;
+		font-weight: 400;
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	} 
+}
+
+.field-comment {
+	margin-top: -1rem;
+	text-align: left;
+	padding: 0.25rem;
+}

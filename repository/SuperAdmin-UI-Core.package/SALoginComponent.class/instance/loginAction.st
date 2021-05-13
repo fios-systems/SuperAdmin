@@ -5,7 +5,11 @@ loginAction
   self hasValidator
     ifTrue: [ 
       (validator userWithName: userName password: password)
-        ifNotNil: [ :user | ^ self announce: (SALogin user: user) ] ].
+        ifNotNil: [ :user | 
+          self
+            clearPasswords;
+            removeComponentAt: #'login'.
+          ^ self announce: (SALogin user: user) ] ].
   (self errorsForSection: 'login')
     add: [ :html | 
       html

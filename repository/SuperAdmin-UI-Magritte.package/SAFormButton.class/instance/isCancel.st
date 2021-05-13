@@ -1,0 +1,3 @@
+testing
+isCancel
+  ^ selector == #'cancel'

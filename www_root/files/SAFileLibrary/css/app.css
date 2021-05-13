@@ -10777,6 +10777,22 @@ select.form-control {
   padding: 0.25rem 0.5rem 0.35rem;
 }
 
+.magritte-group {
+  text-align: left;
+}
+.magritte-group .heading {
+  font-family: le-havre-rounded, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.field-comment {
+  margin-top: -1rem;
+  text-align: left;
+  padding: 0.25rem;
+}
+
 .input-group {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.5rem;
@@ -10786,6 +10802,7 @@ select.form-control {
 }
 .input-group .input-group-text {
   border: 0;
+  width: 38px;
 }
 .input-group .input-group-text + .form-floating {
   flex: 1 1 auto;
@@ -13009,6 +13026,16 @@ textarea {
 
 .login__block__body {
   padding: 2rem;
+}
+
+.brand {
+  max-height: 220px;
+}
+.brand img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  opacity: 70%;
 }
 
 .todo__item {

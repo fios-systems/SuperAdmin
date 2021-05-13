@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addButton:" : "jupiter 05/12/2021 00:30",
+		"cancelButton" : "jupiter 05/12/2021 07:36",
+		"renderButtonsOn:" : "jupiter 05/12/2021 06:56",
+		"renderButtonsWithTargetOn:" : "jupiter 05/11/2021 17:05",
+		"renderCancelButton:on:" : "jupiter 05/12/2021 07:34",
+		"renderContentOn:" : "jupiter 05/12/2021 08:52",
+		"renderSaveButton:on:" : "jupiter 05/12/2021 07:34",
+		"saveButton" : "jupiter 05/12/2021 07:35",
+		"secondaryButtons" : "jupiter 05/12/2021 06:50" } }

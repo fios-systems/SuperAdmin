@@ -1,0 +1,3 @@
+actions
+clearPasswords
+  password := nil

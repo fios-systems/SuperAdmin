@@ -67,3 +67,15 @@
 .login__block__body {
   padding: 2rem;
 }
+
+.brand {
+	max-height: 220px;
+	
+	img {
+		object-fit: contain;
+		height: 100%;
+		width: 100%;
+		opacity: 70%;
+		
+	}
+}

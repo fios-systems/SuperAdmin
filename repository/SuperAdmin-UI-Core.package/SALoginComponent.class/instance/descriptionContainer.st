@@ -4,5 +4,5 @@ descriptionContainer
 
   <magritteContainer>
   ^ SAContainer new
-    label: self class label;
+    label: self label;
     yourself

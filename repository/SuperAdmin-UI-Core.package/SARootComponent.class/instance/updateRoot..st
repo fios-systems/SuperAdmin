@@ -9,4 +9,5 @@ updateRoot: anHtmlRoot
   anHtmlRoot stylesheet url: SAFileLibrary / #'vendorsanimatecssanimateCss'.
   anHtmlRoot stylesheet
     url: SAFileLibrary / #'vendorsoverlayscrollbarsOverlayScrollbarsCss'.
+  anHtmlRoot stylesheet url: 'https://use.typekit.net/ozg0uqo.css'.
   anHtmlRoot stylesheet url: SAFileLibrary / #'cssappCss'

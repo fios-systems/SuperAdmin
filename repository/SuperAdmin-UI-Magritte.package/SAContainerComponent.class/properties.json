@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 05/11/2021 08:33",
+	"instvars" : [
+		"components" ],
+	"name" : "SAContainerComponent",
+	"pools" : [
+		 ],
+	"super" : "MAContainerComponent",
+	"type" : "normal" }

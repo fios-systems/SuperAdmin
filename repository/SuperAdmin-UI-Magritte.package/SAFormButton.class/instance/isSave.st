@@ -1,0 +1,3 @@
+testing
+isSave
+  ^ selector == #'save'
