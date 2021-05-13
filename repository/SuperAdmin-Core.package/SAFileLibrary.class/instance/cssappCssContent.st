@@ -13030,6 +13030,16 @@ textarea {
   padding: 2rem;
 }
 
+.brand {
+  max-height: 220px;
+}
+.brand img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  opacity: 70%;
+}
+
 .todo__item {
   display: flex;
   align-items: flex-start;
