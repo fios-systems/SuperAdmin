@@ -7,7 +7,9 @@
 }
 
 .login__block {
-  max-width: 330px;
+  position: relative;
+  top: -5vh;
+  max-width: 354px;
   width: 100%;
   display: none;
   text-align: center;
@@ -24,7 +26,6 @@
 }
 
 .login__block.active {
-  z-index: 10;
   display: inline-block;
 }
 
@@ -69,7 +70,7 @@
 }
 
 .brand {
-	max-height: 220px;
+	max-height: 230px;
 	
 	img {
 		object-fit: contain;

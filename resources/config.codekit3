@@ -7788,7 +7788,7 @@
       "ma" : 1,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/opt\/git\/JupiterSmalltalk\/SuperAdmin\/www_root\/files\/SAFileLibrary\/js\/app-min.js",
+      "oAP" : "\/opt\/git\/fios-systems\/SuperAdmin\/www_root\/files\/SAFileLibrary\/js\/app-min.js",
       "oF" : 7,
       "sC" : 3,
       "tS" : 0
@@ -8109,7 +8109,7 @@
       "ft" : 4,
       "ma" : 1,
       "oA" : 0,
-      "oAP" : "\/opt\/git\/JupiterSmalltalk\/SuperAdmin\/www_root\/files\/SAFileLibrary\/css\/app.css",
+      "oAP" : "\/opt\/git\/fios-systems\/SuperAdmin\/www_root\/files\/SAFileLibrary\/css\/app.css",
       "oF" : 7,
       "oS" : 0,
       "pg" : 0,
@@ -8576,6 +8576,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/scss\/inc\/_variables.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/inc\/_variables-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/scss\/inc\/_variables.scss" : {
       "aP" : 0,
