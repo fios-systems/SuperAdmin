@@ -12,7 +12,7 @@ respondFromAjaxRequestWith: anException continuation: continuation
     at: 'packagesVersions'
     put: (self packagesInfoStringFrom: #('SuperAdmin-Core')).
   infoDict at: 'sitePrefix' put: 'TODO: Not yet implemented'.
-  infoDict at: 'user' put: self session user displayName.
+  infoDict at: 'user' put: self session user nickname.
   infoDict
     at: 'gemPid'
     put:

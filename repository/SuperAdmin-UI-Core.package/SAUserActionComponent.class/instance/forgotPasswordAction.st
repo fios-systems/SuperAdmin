@@ -1,0 +1,3 @@
+actions
+forgotPasswordAction
+  action := 'forgotPassword'

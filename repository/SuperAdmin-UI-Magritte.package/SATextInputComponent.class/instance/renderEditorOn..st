@@ -29,7 +29,7 @@ renderEditorOn: html
                         attributeAt: 'data-bs-placement' put: 'right';
                         attributeAt: 'data-bs-trigger' put: 'focus';
                         attributeAt: 'data-bs-content'
-                          put: (errors reduce: [ :a :b | a , ' ' , b ]) ].
+                          put: (self errorStringFromErrors: errors) ].
                   html label
                     for: self labelId;
                     with: description label ] ]

@@ -5,8 +5,8 @@ renderMainMessageOn: html
     class: 'fa-5x';
     style: 'color: #B22222';
     with: [ html span fontAwesomeWarningIcon ].
-  html span
-    style: 'font-size: 50px;';
+  html div
+    style: 'font-size: 50px;line-height: 37px;padding-bottom: 30px;';
     with: [ html text: 'OOPS! SOMETHING WENT WRONG' ].
   html
     paragraph:

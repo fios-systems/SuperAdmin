@@ -1,14 +1,15 @@
 {
 	"class" : {
 		"canBeRoot" : "jupiter 03/07/2021 16:32",
-		"configureApplication:" : "jupiter 05/05/2021 07:43" },
+		"configureApplication:" : "jupiter 05/13/2021 15:58" },
 	"instance" : {
 		"ajaxErrorHandler" : "jupiter 05/04/2021 15:09",
 		"checkForUserLockOnScript:" : "jupiter 05/06/2021 14:32",
 		"initialRequest:" : "jupiter 05/06/2021 17:07",
 		"initialize" : "jupiter 03/08/2021 09:07",
-		"lockComponent" : "jupiter 05/06/2021 14:33",
-		"loginComponent" : "jupiter 05/03/2021 20:36",
+		"lockComponent" : "jupiter 06/18/2021 08:07",
+		"loginComponent" : "jupiter 06/02/2021 09:36",
+		"loginComponentClass" : "jupiter 06/01/2021 12:21",
 		"notifications" : "jupiter 03/08/2021 09:21",
 		"notifications:" : "jupiter 03/08/2021 09:21",
 		"renderClockOn:" : "jupiter 05/09/2021 14:51",
@@ -29,7 +30,7 @@
 		"renderSearchOn:" : "jupiter 03/07/2021 19:01",
 		"renderSidebarOn:" : "jupiter 05/06/2021 18:09",
 		"renderSidebarUserOn2:" : "jupiter 05/06/2021 18:06",
-		"renderSidebarUserOn:" : "jupiter 05/09/2021 14:45",
+		"renderSidebarUserOn:" : "jupiter 06/17/2021 08:09",
 		"renderSupportForAjaxErrorHandlerOn:" : "jupiter 04/26/2021 20:19",
 		"renderThemeSelectorOn:" : "jupiter 03/08/2021 08:30",
 		"renderThemeSelectorTopNavOn:" : "jupiter 05/09/2021 14:52",

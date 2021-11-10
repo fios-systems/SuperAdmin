@@ -10,4 +10,4 @@ loadFromDist
   self removeEmptyCategories.
   self
     recursivelyAddAllFilesIn:
-      '/opt/git/JupiterSmalltalk/SuperAdmin/www_root/files/SAFileLibrary'
+      '/opt/git/fios-systems/SuperAdmin/www_root/files/SAFileLibrary'

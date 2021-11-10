@@ -1,8 +1,11 @@
 components
 lockComponent
-  ^ self components
+  ^ (self components
     at: #'lockScreen'
     ifAbsentPut: [ 
-      SALockComponent new
+      SAUserActionComponent new
         validator: self;
-        yourself ]
+        action: 'lockscreen';
+        yourself ])
+    user: self session lockUser;
+    yourself

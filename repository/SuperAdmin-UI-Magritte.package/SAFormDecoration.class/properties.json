@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"formId",
+		"useReCaptcha",
+		"disableOnSubmit",
+		"showSpinnerOnSubmit" ],
 	"name" : "SAFormDecoration",
 	"pools" : [
 		 ],

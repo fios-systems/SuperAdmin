@@ -2,16 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addForm:" : "jupiter 05/11/2021 17:08",
+		"addForm:" : "jupiter 05/24/2021 08:34",
 		"addValidation" : "jupiter 05/12/2021 08:13",
 		"children" : "jupiter 05/11/2021 08:33",
 		"componentAt:ifAbsentPut:" : "jupiter 05/11/2021 08:33",
 		"components" : "jupiter 05/11/2021 08:33",
 		"errorsForDescription:" : "jupiter 05/12/2021 07:50",
+		"formDecoration" : "jupiter 05/24/2021 08:29",
 		"initialize" : "jupiter 05/11/2021 08:33",
-		"modelViewApplication" : "jupiter 05/11/2021 08:33",
+		"modelViewApplication" : "jupiter 10/02/2021 09:11",
+		"onValidationError:addTo:" : "jupiter 06/01/2021 13:58",
 		"organisationModel" : "jupiter 05/11/2021 08:33",
 		"renderDescriptionsWithLabels:on:" : "jupiter 05/11/2021 11:47",
+		"reset" : "jupiter 05/13/2021 12:44",
 		"rolesWithNames:" : "jupiter 05/11/2021 08:33",
 		"saveAndRemainOpen" : "jupiter 05/11/2021 08:33",
 		"userHasRoleNamed:" : "jupiter 05/11/2021 08:33" } }

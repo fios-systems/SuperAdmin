@@ -1,0 +1,18 @@
+{
+	"category" : "SuperAdmin-UI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"action",
+		"nickname",
+		"userName",
+		"password",
+		"user" ],
+	"name" : "SAUserActionComponent",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractValidationComponent",
+	"type" : "normal" }

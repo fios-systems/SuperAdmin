@@ -10,7 +10,7 @@ renderErrorInformationOn: html
   html text: 'Generated at: ' , DateAndTime now printString.
   html break.
   self session user
-    ifNotNil: [ html text: 'By User: ' , self session user displayName ].
+    ifNotNil: [ html text: 'By User: ' , self session user nickname ].
   html break.
   html text: 'Site url: ' , WACurrentRequestContext value request uri asString.
   html break.

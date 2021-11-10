@@ -14,10 +14,10 @@ renderSidebarUserOn: canvas
                     with: [ 
                       canvas div
                         class: 'user__name';
-                        with: [ canvas text: 'Jupiter Jones III' ].
+                        with: [ canvas text: self session user nickname ].
                       canvas div
                         class: 'user__email';
-                        with: [ canvas text: 'jupiter@mynation.earth' ] ] ].
+                        with: [ canvas text: self session user username ] ] ].
           canvas div
             class: 'dropdown-menu';
             with: [ 
